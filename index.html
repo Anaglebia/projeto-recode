@@ -52,11 +52,11 @@
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
+                    ><i class="bi bi-house-heart-fill"></i> Home </a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre</a>
+                  <a class="nav-link" href="#"> <i class="bi bi-bookmark-heart-fill"></i> Sobre</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -137,7 +137,7 @@
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="10000">
               <img
                 src="./assets/img1.png"
                 class="d-block w-100"
@@ -145,7 +145,7 @@
                 style="width: 500px; height: 400px"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
               <img
                 src="./assets/png2.jpg"
                 class="d-block w-100"
@@ -153,7 +153,7 @@
                 style="width: 500px; height: 400px"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
               <img
                 src="./assets/img3.png"
                 class="d-block w-100"
@@ -181,7 +181,9 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+
       <!-- Card -->
+
         <div class="card-group m-4 gap-3">
           <div class="card">
             <img src="./assets/ods8.png" class="card-img-top" alt="..." />
@@ -234,22 +236,26 @@
             <!-- Three columns of text below the carousel -->
             <div class="row mb-6">
               <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-                <h2 class="fw-normal">Heading</h2>
-                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <img src="./assets/ada.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
+                <h2 class="fw-normal">Ada Lovelace</h2>
+                <p>A primeira programadora
+                  Abrindo a lista de mulheres importantes na tecnologia, Ada Lovelace foi a primeira pessoa a criar um programa computacional. Durante o século XIX, ela analisava e traduzia diversos materiais matemáticos e, a partir disso, Lovelace criou o primeiro algoritmo.Na época, ainda não existiam computadores capazes de testar esse código, somente anos depois foi possível comprovar que funcionava.</p>
+                <p><a class="btn btn-secondary" href="https://lyncas.net/blog/mulheres-importantes-na-tecnologia/" target="_blank">Mais detalhes &raquo;</a></p>
               </div><!-- /.col-lg-4 -->
               <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-                <h2 class="fw-normal">Heading</h2>
-                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <img src="./assets/carol.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
+                <h2 class="fw-normal">Carol Shaw</h2>
+                <p>A primeira mulher desenvolvedora de jogos digitais
+                  Carol teve seu primeiro contato na aula de matemática com a linguagem BASIC, e foi a partir dessas aulas que ela descobriu que existiam jogos digitais no computador, além de também conhecer a digitação de programas.
+                  Assim, Carol Shaw foi introduzida ao mundo da tecnologia, por meio da prática de programação.</p>
+                <p><a class="btn btn-secondary" href="https://lyncas.net/blog/mulheres-importantes-na-tecnologia/" target="_blank">Mais detalhes &raquo;</a></p>
               </div><!-- /.col-lg-4 -->
               <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-                <h2 class="fw-normal">Heading</h2>
-                <p>And lastly this, the third column of representative placeholder content.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <img src="./assets/grece.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
+                <h2 class="fw-normal">Grace Hopper </h2>
+                <p>A mãe da programação de computadores
+                  Grace Hopper foi uma analista de sistemas da Marinha dos Estados Unidos nas décadas de 40 e 50, e durante esse tempo desenvolveu a linguagem de programação Flow-Matic, que serviu como base para a criação do COBOL (Linguagem Comum Orientada para Negócios) – usado até hoje em processamento de bancos de dados comerciais.</p>
+                <p><a class="btn btn-secondary" href="https://lyncas.net/blog/mulheres-importantes-na-tecnologia/" target="_blank">Mais detalhes &raquo;</a></p>
               </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         
@@ -268,10 +274,11 @@
                   Em 2022, as mulheres representavam apenas 28% da força de trabalho.
                   Elas ocupam apenas 5% dos cargos de liderança.
                   Mulheres de cor são significativamente sub-representadas no setor, onde as negras ocupam apenas 0.7% de todos os cargo de TI.</p>
-                 <a href="https://brazil.generation.org/news/mulheres-na-tecnologia-a-importancia-da-diversidade-de-genero-na-industria-de-tecnologia/?gad_source=1&gclid=CjwKCAiA7Y28BhAnEiwAAdOJUB1kej-3nXhU0pZsZJs5IHev17iMN6AY9aHhTTAyXE8nob8HeROTjxoCw_YQAvD_BwE" target="_blank">Mais informações</a>
+                  <p><a class="btn btn-secondary" href="https://brazil.generation.org/news/mulheres-na-tecnologia-a-importancia-da-diversidade-de-genero-na-industria-de-tecnologia/?gad_source=1&gclid=CjwKCAiA7Y28BhAnEiwAAdOJUB1kej-3nXhU0pZsZJs5IHev17iMN6AY9aHhTTAyXE8nob8HeROTjxoCw_YQAvD_BwE" target="_blank">Mais detalhes &raquo;</a></p>
+                  
                 </div>
               <div class="col-md-5">
-                <img src="./assets/generation.jpg" class="bd-placeholder-img bd-placeholder-img-xl img-fluid mx-auto" width="100%" height="800" role="img"  preserveAspectRatio="xMidYMid slice" ><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></img>
+                <img src="./assets/generation.jpg" class="img-fluid img-thumbnail" width="500px" height="500px"/>
               </div>
             </div>
         
@@ -281,14 +288,13 @@
               <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fw-normal lh-1">Mulheres na tecnologia: <span class="text-body-secondary">cenário, desafios e nomes que marcaram a história</span></h2>
                 <p class="lead">No setor de tecnologia, a igualdade de gênero é um desafio. Apesar de avanços nos últimos anos, atualmente, ainda é um mercado majoritariamente dominado por homens.Mas, apesar das dificuldades enfrentadas, isso não significa que não existam mulheres na tecnologia que não tenham marcado o setor e contribuído com suas criações. O apagamento de figuras históricas fez com que poucas mulheres tivessem seus nomes lembrados.
-
                   Além disso, ainda existem outros desafios que ainda impedem mais mulheres de participar desse ramo, como a falta de incentivo e as diferenças salariais.
-                  
                   A seguir, entenda melhor a importância das mulheres na tecnologia e os principais obstáculos que elas encontram neste setor, além de 4 exemplos históricos.</p>
-                  <a href="https://www.cnnbrasil.com.br/tecnologia/mulheres-na-tecnologia/" target="_blank">Mais informações</a>
+                  <p><a class="btn btn-secondary" href="https://www.cnnbrasil.com.br/tecnologia/mulheres-na-tecnologia/" target="_blank">Mais detalhes &raquo;</a></p>
+                  
               </div>
               <div class="col-md-5 order-md-1">
-                <img src="./assets/cnn.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></img>
+                <img src="./assets/cnn.jpg" class="img-thumbnail img-fluid mx-auto" width="100%" height="500px"/>
               </div>
             </div>
         
@@ -298,10 +304,10 @@
               <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Mulheres na tecnologia: <span class="text-body-secondary">desafios e legado</span></h2>
                 <p class="lead">No setor de tecnologia, a presença feminina ainda é um desafio a ser superado. Embora haja avanços recentes, o mercado continua predominantemente dominado por homens. No entanto, apesar das barreiras enfrentadas, diversas mulheres têm deixado sua marca na história, contribuindo significativamente para o desenvolvimento tecnológico.No Brasil, apesar do aumento da participação feminina no setor nos últimos anos, os números ainda revelam um cenário desigual. Segundo dados do Cadastro Geral de Empregados e Desempregados (CAGED) via CNN Brasil, apenas 12,3% dos cargos de tecnologia são ocupados por mulheres, enquanto os homens representam 83,3%.</p>
-              <a href="https://olhardigital.com.br/2024/03/08/pro/mulheres-na-tecnologia-desafios-e-legado/" target="_blank">Mais informções</a>
+                <p><a class="btn btn-secondary" href="https://olhardigital.com.br/2024/03/08/pro/mulheres-na-tecnologia-desafios-e-legado/" target="_blank">Mais detalhes &raquo;</a></p>
               </div>
               <div class="col-md-5">
-                <img src="./assets/olharDigital.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></img>
+                <img src="./assets/olharDigital.jpg" class=" img-fluid mx-auto img-thumbnail" width="500" height="500"/>
               </div>
             </div>
         
@@ -313,9 +319,9 @@
         
         
           <!-- FOOTER -->
-          <footer class="container">
-            <p class="float-end"><a href="#">Topo</a></p>
-            <p>&copy; 2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <footer class="container d-flex justify-content-center gap-3">
+            <p>&copy; 2025 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> 
+            <p class="float-end "><a href="#"><i class="bi bi-arrow-up-circle">Topo</i></a></p>
           </footer>
         </div>
       </main>
