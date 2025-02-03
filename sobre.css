@@ -1,3 +1,26 @@
-/*Teste Git*/
+* {
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+}
 
+.secao-destaque {
+    padding: 20px;
+    text-align: center;
+    background-color: #d7368a;
+    margin: 20px 0;
+}
 
+.apresentacao {
+    padding: 20px;
+    text-align: center;
+    background-color: #d7368a;
+    margin: 20px 0; /
+}
+
+.imagem-palesta {
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+}
