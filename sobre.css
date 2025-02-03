@@ -24,3 +24,15 @@
     height: 550px;
     border-radius: 10px;
 }
+
+.titulo-card {
+    text-align: center;
+}
+
+.texto-do-card {
+    text-align: justify;
+}
+
+.texto-palestra {
+    text-align: justify;
+}
