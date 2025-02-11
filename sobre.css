@@ -40,3 +40,20 @@
 .letreiro-texto {
     font-size: 30px;
 }
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.imagem-palesta {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+@media (max-width: 768px) {
+    .texto-justificado {
+        text-align: left; /* Alinha o texto à esquerda em dispositivos móveis */
+    }
+}
