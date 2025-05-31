@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+  background-color: #e996bf;
+  transition: background 0.2s linear;
+  font-size: 1.2rem; /* Tamanho de fonte maior */
+  text-shadow: 1px 1px 2px #fff6, 0 1px 0 #fff3; /* Sombra suave para destaque */
+}
+
+body.dark {
+  background: #292c35;
+}
 .secao-destaque {
     padding: 20px;
     text-align: center;
@@ -38,9 +48,14 @@
 }
 
 .letreiro-texto {
-    font-size: 30px;
+     display: inline-block;
+    padding-left: 40%; /* antes era 100% */
+    animation: marquee 29s linear infinite; /* antes era 29s */
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 .texto-justificado {
     text-align: justify;
 }
