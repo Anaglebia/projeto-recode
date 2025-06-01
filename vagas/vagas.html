@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas de emprego</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/vagas.css">
+    <link rel="stylesheet" href="css/header-title.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/main.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <h1 class="header-title">VAGAS DE EMPREGO</h1>
+    </header>
+    <main>
+       <button type="button" class="button blue" id="cadastrarCliente" >Cadastrar Vaga</button>
+       <table class="records">
+        <thead>
+            <tr>
+                <th>Empresa</th>
+                <th>Descrição da vaga</th>
+                <th>Nível</th>
+                <th>Função</th>
+                <th>Tipo</th>
+                <!-- <th>Estado</th> -->
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DTI Digital</td>
+                <td>Estamos contratando Desenvolvedor Front End Javascript para a execução de projetos de transformação digital, desenvolvendo ferramentas inovadoras para entregar a melhor experiência para os usuários da plataforma de uma grande empresa.
+                Entendemos que para essa evolução, é necessário o conhecimento em:
+                "Javascript;
+                "React e React-native;
+                <!-- "Gerenciador de pacotes como Yarn, styled components, git flow.</td> -->
+
+                <td>Assistente</td>
+                <td>Engenharia e Tecnologia da informação</td>
+                <td>Tempo integral</td>               
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>               
+            </tr>
+            <tr>
+                <td>Sou Energy</td>
+                <td>
+                    Capacidade de comunicar claramente os desafios técnicos, solicitar ajuda quando necessário e compartilhar o progresso do trabalho com a equipe;
+
+                    Capacidade de colaborar com outros desenvolvedores, designers e outros membros da equipe, buscando sempre o melhor resultado no desenvolvimento de funcionalidades e soluções;
+
+                    Conhecimento de PHP, arquitetura Magento2 e Laravel será um diferencial.
+                <td>Junior</td>
+                <td>Tecnologia da informação</td>
+                <td>Híbrido</td>               
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>               
+            </tr>
+            <tr>
+                <td>Bradesco</td>
+                <td>Desenvolvimento de Software: Backend e Fullstack (Java e Angular)
+                    Liderança Técnica: Posições de liderança dentro do departamento de sistemas
+
+
+                    Venha fazer parte de um ambiente inclusivo e inovador, onde valorizamos suas habilidades e potencial. Junte-se a nós e ajude a moldar o futuro da tecnologia!
+                    Estamos comprometidos com a diversidade e a equidade de oportunidades. Por isso, temos vagas afirmativas para mulheres na área de tecnologia!
+                <td>Treineer</td>
+                <td>Engenharia e Tecnologia da informação</td>
+                <td>Tempo integral</td>               
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>               
+            </tr>
+        </tbody>
+       </table>
+       <div class="modal" id="modal" >
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Nova Vaga</h2>
+                    <span class="modal-close" id="modal-Close" >&#10006</span>
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome da Empresa">
+                    <input type="text" class="modal-field" placeholder="Descrição da Vaga">
+                    <input type="text" class="modal-field" placeholder="Nível">
+                    <input type="text" class="modal-field" placeholder="Função">
+                    <input type="text" class="modal-field" placeholder="Tipo">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">Salvar</button>
+                    <button class="button red">Cancelar</button>
+                </footer>
+            </div>
+       </div>
+    </main>
+    <!-- Desenvolvedora - Estágio - Modelo Hibrido
+dti digital  Belo Horizonte, MG
+    Nível de experiência
+Assistente
+Tipo de emprego
+Tempo integral
+Função
+Engenharia e Tecnologia da informação
+Setores
+Atividades dos serviços de tecnologia da informação -->
+    <footer>
+        footer 
+    </footer>
+</body>
+</html>
