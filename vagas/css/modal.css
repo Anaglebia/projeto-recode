@@ -1,5 +1,5 @@
 .modal {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -33,18 +33,13 @@
     font-size: 1rem;
 }
 
-.modal-header>span{
-    position: absolute;
-    right: 0;
-
-}
-
 .modal-close{
+    position: absolute;
     display: block;
+    right: 0;
     width: 40px;
     height: 40px;
     text-align: center;
-
     color: aliceblue;
     user-select: none;
     cursor: pointer;
@@ -76,11 +71,28 @@
 .modal-field:focus{
     border: 2px solid var(--primary-color);
     box-shadow: 0 0 3px var(--primary-color);
-
 }
 
 .modal-footer{
     background-color: inherit;
     text-align: right;
     padding: 0 20px;
+}
+
+@media (max-width:480px){
+    .modal{
+        top:100%;
+        transition: all 1s ease;
+    }
+    .modal.active{
+        top:0;
+    }
+    .modal-content{
+        margin:0;
+        width:100%;
+        position:fixed;
+    }
+    .modal-field{
+        width:100%;
+    }
 }
